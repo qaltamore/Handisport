@@ -91,3 +91,9 @@ header nav div p {
     max-width: 150px;
     text-decoration: none;
 }
+
+.legal-mentions {
+    background-color: #1f2d59;
+    text-align: center;
+    padding: 15px 0;
+}
