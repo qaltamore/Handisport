@@ -1,0 +1,93 @@
+html, body {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    height: 50vw;
+    background: url('../img/header-background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+header nav div {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav div p {
+    color: white; /* tmp */
+    font-size: 18px;
+}
+
+.headerTxt {
+    margin-top: 20px;
+    text-align: center;
+}
+.headerTxt h1 {
+    margin: 0;
+}
+.headerTxt p {
+    color: red;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    font-style: italic;
+}
+.assoc {
+    top: -25px;
+    left: -60px;
+}
+.sport {
+    top: -55px;
+}
+.since2014 {
+    top: -25px;
+    left: 20px;
+}
+.forEveryone {
+    position: relative;
+    top: -30px;
+}
+.fat {
+    font-size: 100px;
+    line-height: 100px;
+}
+.normal {
+    font-size: 60px;
+    line-height: 60px;
+}
+.little {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+.button {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    padding: 10px 20px;
+    background-color: #cba153;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    max-width: 150px;
+    text-decoration: none;
+}
