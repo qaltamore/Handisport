@@ -1,0 +1,41 @@
+.new-p {
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.images {
+    margin-top: 80px;
+}
+.images-title {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0 10%;
+    font-weight: bold;
+}
+.images-subtitle {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 10%;
+}
+.images-sub-subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 10%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 50px 0;
+}
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev {
+    --swiper-theme-color: white;
+}
+.swiper-button-next {
+    --swiper-theme-color: white;
+}

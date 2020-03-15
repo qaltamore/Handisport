@@ -82,14 +82,19 @@ header nav div a {
 
 .page-title {
     position: relative;
-    margin: 0 auto;
-    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.page-title-content {
+    padding: 10px;
+    position: relative;
 }
 .page-title .color-bg {
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 0;
-    height: 40px;
+    height: 45px;
     width: 100%;
     background-color: rgba(255, 0, 0, 0.5);
 }
@@ -116,6 +121,7 @@ header nav div a {
     background-color: #1f2d59;
     text-align: center;
     padding: 15px 0;
+    color: white;
 }
 
 .activeNav {
