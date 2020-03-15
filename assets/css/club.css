@@ -1,0 +1,51 @@
+.presents-event-content {
+    width: 80%;
+    margin: 0 auto;
+}
+.img-text img {
+    width: 40%;
+}
+.explanations {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.little-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.palmares-and-training {
+    position: relative;
+}
+.palmares-and-training-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.palmares-and-training-content .line-between {
+    height: 300px;
+}
+.palmares {
+    padding-right: 40px;
+}
+.training {
+    padding-left: 40px;
+}
+.arrow {
+    position: absolute;
+    width: 15%;
+}
+.arrow-left {
+    left: 0;
+    top: 0;
+}
+.arrow-right {
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    transform: rotate(180deg);
+}
