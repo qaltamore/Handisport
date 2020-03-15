@@ -1,0 +1,29 @@
+.form {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.field {
+    width: 44%;
+    height: 30px;
+    margin: 1%;
+    border-radius: 10px;
+    border: 1px #AAA solid;
+    padding-left: 10px;
+}
+textarea {
+    margin: 1%;
+    width: 92%;
+    min-height: 150px;
+    border-radius: 10px;
+    border: 1px #AAA solid;
+    padding: 10px;
+}
+
+.button {
+    cursor: pointer;
+}

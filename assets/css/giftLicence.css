@@ -1,0 +1,16 @@
+.gift-licence-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+.gift-licence-section div {
+    margin: 0;
+}
+.legal-mentions {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
